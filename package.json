@@ -12,14 +12,20 @@
   },
   "license": "ISC",
   "author": "Wadzanai Murombedzi",
-  "type": "commonjs",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start":"node server.js",
-    "server": "nodemon server.js" 
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "nodemon": "^3.1.14"
+    "mongoose": "^9.9.1",
+    "morgan": "^1.11.0",
+    "nodemon": "^3.1.14",
+    "validator": "^13.15.35"
   }
 }
